@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+/****ADDONS****/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+@import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
+@import url("https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css");
+@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
+@import url("https://dablulite.github.io/css-snippets/NoLightInDark/import.css");
+
+
+/***TRANSPARENT CODES***/
+/**transparent part LVL I**/
+/*home tab fix*/
+.forumOrHome_ff5f90 {
+    background: transparent;
+}
+
+/*spotify controls error background*/
+.panels_a4d4d9 span {
+    background: transparent !important;
+}
+
+/*friends tab*/
+.content_a4d4d9 > div,
+.panels_a4d4d9 {
+    background: transparent !important;
+}
+
+/*transparent scrollbar*/
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-clip: content-box !important;
+    background: var(--chillax-scroller-color) !important;
+}
+
+/*transparent call background*/
+.wrapper_d880dc,
+.minimum_d880dc,
+.callContainer_d880dc {
+    background: none !important;
+}
+
+.root_f42a96,
+.tile_dc5fc4 {
+    background: none;
+}
+
+.videoGrid_bae578 {
+    background: transparent !important;
+}
+
+/* transparent role selection / browse channels / members page background */
+.container_fc4f04,
+.container_f1fd9c,
+.container_c2efea {
+    background-color: transparent !important;
+}
+
+/* transparent default avatar section background */
+.container_b2ca13 {
+    background: transparent !important;
+}
+
+/**transparent part LVL II**/
+/*small profile modal*/
+html.theme-dark .userPopout-2j1gM4 {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+}
+
+html.theme-dark .footer-3naVBw {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+html.theme-dark .avatar-2Vndt_ {
+    border: 6px solid transparent;
+    background-color: transparent;
+}
+
+html.theme-dark .bodyInnerWrapper-2bQs1k {
+    background: transparent;
+}
+
+/*small profile modal 2*/
+.avatar-2OC07D {
+    background: none;
+    box-shadow: none !important;
+}
+
+.avatarHint_f89da9 foreignObject {
+    mask: none;
+}
+
+.avatarHintInner_f89da9 {
+    border-radius: 50px;
+}
+
+/*bd editor titlebar*/
+html.theme-dark .floating-window-titlebar {
+    background-color: rgba(0, 0, 0, 0.575);
+    backdrop-filter: blur(2px);
+}
+
+/*code block*/
+html.theme-dark .scrollbar_c858ce {
+    background-color: rgba(0, 0, 0, 0.377) !important;
+}
+
+/*menu blur*/
+html.theme-dark .menu_d90b3d {
+    /*Main class*/
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu_d90b3d::before,
+.menu_d90b3d.submenu-1apzyU::before {
+    /*Blurs the menu*/
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+/* Fix blur in nested floating menu */
+.submenu_d90b3d.menu_d90b3d::before {
+    width: calc(100% - 16px);
+}
+
+/*all in settings*/
+.messagesPopoutWrap_ac90a2,
+.drawerSizingWrapper_af5dbb {
+    backdrop-filter: blur(5px) !important;
+    background: #0004 !important;
+}
+
+.inspector-2A2Ch {
+    backdrop-filter: blur(5px);
+    background: transparent;
+}
+
+.feature-2IUcBI,
+.container-2nx-BQ,
+.bd-switch-body {
+    background: #0007 !important;
+}
+
+.verticalFit_f66684,
+.card-16VQ8C {
+    background: #0001 !important;
+}
+
+.bottomDivider_f66684 {
+    background: transparent !important;
+}
+
+.bar-1Bhnl9,
+.markDash-yk2kJ- {
+    background: rgb(175, 175, 175) !important;
+}
+
+.popout-1KHNAq {
+    backdrop-filter: blur(5px);
+}
+
+.bd-addon-card {
+    background: rgba(0, 0, 0, 0.349) !important;
+}
+
+.bd-addon-header {
+    background: transparent !important;
+}
+
+/*forum channel*/
+.container-3wLKDe {
+    background: transparent !important;
+}
+
+/*--FANCY CSS CODES--*/
+/*discord wordmark*/
+.wordmark_a934d8 path {
+    display: none !important;
+}
+
+html.theme-dark .wordmark_a934d8::before {
+    content: "‏‏‎ c a s p a n a t a";
+    font-size: 12px;
+    font-family: "Poiret one" !important;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    border-radius: 5px;
+    padding: 7px 11px 7px 7px;
+    margin-left: 20px;
+    margin-top: 5px;
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+}
+
+.wordmark_a934d8:hover:before {
+    content: "‏‏‎ c a s p a n a t a";
+    letter-spacing: 2px;
+}
+
+/* button design*/
+html.theme-dark .lookFilled_dd4f85 {
+    border-radius: 45px;
+    background: rgb(36, 36, 36) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+html.theme-dark .lookFilled_dd4f85:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    background: rgb(0, 0, 0) !important;
+    transition: 0.1s;
+}
+
+/*channel unread pill*/
+.unread_d8bfb3 {
+    margin-left: 4px;
+    border-radius: 20px;
+}
+
+/* Fix so that the unread button/container always stays visible
+ on top of other stuff like spotify controls etc */
+
+.unreadBottom_c43953 {
+    z-index: 9999 !important;
+}
+
+.container_eba0ba.bottom_eba0ba {
+    z-index: 9999 !important;
+}
+
+/*spotify gradient thing*/
+html.theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
+    background: linear-gradient(135deg, #2b2b2b, var(--accentcolorV2));
+}
+
+/*chatbox recolour*/
+.input-2g-os5,
+.scrollableContainer_d0696b {
+    background-color: transparent !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    outline: none;
+}
+
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
+    color: transparent !important;
+}
+
+html.theme-dark .input-2g-os5:hover,
+html.theme-dark .scrollableContainer_d0696b:hover {
+    background-color: #00000023 !important;
+}
+
+/* attachedBars is the reply bar */
+html.theme-dark .input-2g-os5:focus-within,
+html.theme-dark .scrollableContainer_d0696b:focus-within,
+html.theme-dark .attachedBars-3ANh32:focus-within {
+    background-color: #00000037 !important;
+}
+
